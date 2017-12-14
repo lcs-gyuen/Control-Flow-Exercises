@@ -38,7 +38,9 @@
 var temperature = 0
 
 // Answer Question 1 below
-
+if temperature == 0 {
+    print("Brr, grab your winter jacket!")
+}
 
 /*:
  
@@ -51,7 +53,12 @@ var temperature = 0
 temperature = -20
 
 // Answer Question 2 below
-
+if temperature > 0 {
+    print("Don't leave your water glass outside!")
+    
+    
+    
+}
 
 /*:
  
@@ -69,7 +76,15 @@ temperature = -20
 temperature = 15
 
 // Answer Question 3 below
-
+if temperature == 0 {
+    print("Brr, grab your winter jacket")
+}
+if temperature > 0 {
+    print("Don't leave your water glass outside!")
+    
+} else {
+    print("It could be shorts weather but you might still be a bit chilly")
+}
 /*:
  
  ### Question 4
@@ -88,8 +103,16 @@ let alwaysGetsAttentionBySayingGentsAndLadies = true
 let teachesOutdoorEd = true
 
 // Answer Question 4 below
-
-
+if hasRedHair == true {
+    if alwaysGetsAttentionBySayingGentsAndLadies == true {
+        if teachesOutdoorEd == true {
+            print("Must be Gordon!")
+        } else {
+            print("Hm, need more data to be sure.")
+        }
+        
+    }}
+    
 /*:
  
  ### Question 5
@@ -109,6 +132,16 @@ let isComedy = false
 let starsTheRock = true
 
 // Answer Question 5 below
+if isAction == true {
+    if isComedy == false {
+        if starsTheRock == true {
+    print("Let's watch!")
+} else {
+    print("Sorry, guess we'll have to play the Tic-Tac-Toe instead")
+        }
+        
+    }
+    }
 
 
 /*:
@@ -127,6 +160,7 @@ let starsTheRock = true
  */
 
 // Answer Question 6 below
+
 
 
 
