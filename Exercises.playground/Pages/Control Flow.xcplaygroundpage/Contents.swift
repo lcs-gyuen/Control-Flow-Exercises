@@ -55,9 +55,6 @@ temperature = -20
 // Answer Question 2 below
 if temperature > 0 {
     print("Don't leave your water glass outside!")
-    
-    
-    
 }
 
 /*:
@@ -78,10 +75,8 @@ temperature = 15
 // Answer Question 3 below
 if temperature == 0 {
     print("Brr, grab your winter jacket")
-}
-if temperature > 0 {
+} else if temperature > 0 {
     print("Don't leave your water glass outside!")
-    
 } else {
     print("It could be shorts weather but you might still be a bit chilly")
 }
@@ -104,14 +99,14 @@ let teachesOutdoorEd = true
 
 // Answer Question 4 below
 if hasRedHair == true {
-    if alwaysGetsAttentionBySayingGentsAndLadies == true {
-        if teachesOutdoorEd == true {
-            print("Must be Gordon!")
-        } else {
-            print("Hm, need more data to be sure.")
-        }
-        
-    }}
+    print("Must be Gordon!")
+} else if alwaysGetsAttentionBySayingGentsAndLadies == true {
+    print("Must be Gordon!")
+} else if teachesOutdoorEd == true {
+    print("Must be Gordon!")
+} else {
+    print("Hm, need more data to be sure.")
+}
     
 /*:
  
@@ -139,7 +134,6 @@ if isAction == true {
 } else {
     print("Sorry, guess we'll have to play the Tic-Tac-Toe instead")
         }
-        
     }
     }
 
